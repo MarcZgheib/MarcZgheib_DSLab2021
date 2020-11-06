@@ -15,7 +15,7 @@ public class Assignment1 {
 
     public static void isAscending(int []array)
     {
-        boolean value = false;
+        
         boolean sortedAsc = true;
         boolean sortedDesc = true;
         for (int i = 0; i < array.length-1; i++) {
