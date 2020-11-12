@@ -18,14 +18,14 @@ public class Assignment1 {
         
         boolean sortedAsc = true;
         boolean sortedDesc = true;
-        for (int i = 0; i < array.length-1; i++) {
+        for (int i = 0; i < array.length; i++) {
             if(array[i]<array[i+1])
                 sortedDesc = false;
             else
                 sortedAsc = false;
         }
         if(sortedAsc)
-        { for (int i = 0; i < array.length; i++) {   
+        { for (int i = 0; i < array.length-1; i++) {   
                 System.out.println(array[i]);
             }
         System.out.println("The array is sorted in an ascending form");
